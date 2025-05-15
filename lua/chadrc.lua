@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "gruvbox",
 
 	 hl_override = {
 	 	Comment = { italic = true },
@@ -18,7 +18,10 @@ M.base46 = {
  M.ui = {
        tabufline = {
           lazyload = false
-      }
+      },
+  statusline = {
+  separator_style = "arrow",
+  }
 }
 
 return M
