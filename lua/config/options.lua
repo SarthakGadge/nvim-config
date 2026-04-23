@@ -1,5 +1,6 @@
 --zy Options are automatically loaded before lazy.nvim  here
 -- In Neovim init.lua
+vim.g.autoformat = false
 vim.opt.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
 if vim.fn.has("win32") == 1 then
   -- Change 'pwsh.exe' to 'powershell.exe'
